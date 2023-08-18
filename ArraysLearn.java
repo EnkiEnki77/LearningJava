@@ -50,6 +50,11 @@ public class ArraysLearn {
         // 0, empty char, or empty string, depending on the type of the array. 
         int[] unsortedCopy = Arrays.copyOf(unsorted, 7);
         System.out.println(Arrays.toString(unsortedCopy));
+
+        // Arrays.copyOfRange lets you copy part of an array. It takes, the source array, starting index, and ending index
+        // as args
+        int[] unsortedCopyRange = Arrays.copyOfRange(unsorted, 2, 5);
+        System.out.println(Arrays.toString(unsortedCopyRange));
         
        
 
