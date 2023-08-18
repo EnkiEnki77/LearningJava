@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class CollectionsLearn {
+public class ArrayLists {
     public static void main(String[] args){
         // Collections are data structures similar to Arrays, but instead of having a fixed length their length can change.
 
